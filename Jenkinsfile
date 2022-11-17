@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Obtener el repositorio') {
             steps {
-                git branch: 'main', url: 'https://github.com/oscarg165/taller-openwebinars.git'
+                git branch: 'master', url: 'https://github.com/oscarg165/taller-openwebinars.git'
             }
         }
         stage('Construir la documetación') {
